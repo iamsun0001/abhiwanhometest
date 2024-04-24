@@ -1,0 +1,11 @@
+.dynamic-progress-bar {
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+}
+
+.progress {
+  background-color: #007bff; /* Progress bar color */
+  height: 10px;
+}

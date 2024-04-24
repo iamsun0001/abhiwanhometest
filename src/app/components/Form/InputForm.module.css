@@ -1,0 +1,53 @@
+.colorinputcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .titlediv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .subtitlediv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .titlediv input,
+  .subtitlediv input {
+    padding: 5px;
+    margin-bottom:10px
+  }
+  
+  .colorbuttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .colorbutton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .colorbutton.selected {
+    border: 2px solid #333; /* Example border style for selected color */
+  }
+  
+ .submitButton {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+.submitButton:hover {
+    background-color: #0056b3;
+  }
+  

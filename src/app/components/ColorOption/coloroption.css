@@ -1,0 +1,17 @@
+.color-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .color-button.selected {
+    border: 2px solid #333; /* Example border style for selected color */
+  }
+  

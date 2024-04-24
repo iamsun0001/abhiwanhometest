@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  padding-left: 50px;
+}
+.listArea {
+  flex: 2;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  overflow-y: scroll;
+}
+.drawerArea {
+  flex: 1;
+  border: 2px solid black;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  overflow: hidden;
+  gap: 50px;
+  padding:20px
+}
+.colorandtitleDiv {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 300px;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.top h1{
+ font-size: 30px;
+}
+.list {
+  margin-top: 100px;
+}
