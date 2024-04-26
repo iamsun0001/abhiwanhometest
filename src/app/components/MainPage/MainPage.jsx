@@ -6,6 +6,7 @@ import ItemList from "../ItemList/ItemList";
 import Items from "../items/Items";
 import AddCreative from "../Add Creative/AddCreative";
 import CrossImage from "../Cross Image/CrossImage";
+import Filter from "../Filter/Filter";
 
 export default function MainPage() {
   return (
@@ -18,10 +19,10 @@ export default function MainPage() {
               <ColorSelectInput></ColorSelectInput>
             </div>
           </div>
-          <div className={styles.titleAndSubtitle}>
+          {/* <div className={styles.titleAndSubtitle}>
             <h3>Title/Subtitle</h3>
             <input type="" name="" value="" />
-          </div>
+          </div> */}
         </div>
         <AddCreative></AddCreative>
         <div className={styles.list}>
