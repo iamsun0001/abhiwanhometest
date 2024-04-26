@@ -20,8 +20,14 @@ const ItemList = async () => {
             style={{ backgroundColor: `${post.selectedColor}` }}
             className={styles.singleItem}
           >
+            <div>
+            <h2>Title</h2>
             <span>{post.title}</span>
+            </div>
+            <div>
+            <h2>Subtitle</h2>
             <span>{post.subtitle}</span>
+            </div>
             <form action={deletePost}>
               <input type="hidden" name="id" value={post._id} />
               <button className={styles.delete}>Delete</button>
